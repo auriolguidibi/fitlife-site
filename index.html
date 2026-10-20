@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>FitLife — Ton corps. Ton alimentation. Ton coach.</title>
+  <meta name="description" content="FitLife, l'application fitness, nutrition et coaching : programme sur 8 semaines, plats d'ici, podomètre, lives avec tes coachs et Coach IA. Télécharge-la gratuitement sur Android." />
+  <meta name="theme-color" content="#060807" />
+  <meta property="og:title" content="FitLife — Ton corps. Ton alimentation. Ton coach." />
+  <meta property="og:description" content="Programme personnalisé, plats d'ici, lives avec tes coachs et Coach IA. Gratuit sur Android." />
+  <meta property="og:image" content="assets/app-icon-512.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="assets/favicon-64.png" />
+  <link rel="apple-touch-icon" href="assets/app-icon-512.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a href="#" class="brand" aria-label="FitLife, accueil">
+        <img src="assets/fitlife-mark.png" alt="" width="34" height="34" />
+        <span>Fit<em>Life</em></span>
+      </a>
+      <nav class="nav__links" aria-label="Navigation principale">
+        <a href="#fonctions">Fonctionnalités</a>
+        <a href="#apercu">Aperçu</a>
+        <a href="#telecharger">Installer</a>
+        <a href="#faq">Questions</a>
+      </nav>
+      <a href="#telecharger" class="btn btn--sm btn--fit nav__cta">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+        Télécharger
+      </a>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <!-- ACCUEIL -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <p class="pill"><span class="dot"></span> Application Android · Gratuite</p>
+          <h1>Ton corps.<br />Ton alimentation.<br /><span class="g">Ton coach.</span></h1>
+          <p class="lead">Plus qu'une application, un vrai accompagnement vers ta meilleure version : un programme fait pour toi, des plats d'ici, des lives avec tes coachs et un Coach IA disponible à toute heure.</p>
+          <div class="hero__ctas">
+            <a class="btn btn--fit btn--lg js-apk" href="FitLife.apk" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+              Télécharger pour Android
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#apercu">Voir l'application</a>
+          </div>
+          <ul class="meta">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Gratuit</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Environ <span class="js-size">8 Mo</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Android 6 ou plus récent</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual">
+          <div class="phone phone--hero">
+            <img src="assets/screens/home.jpg" alt="Écran d'accueil de FitLife : anneaux du jour pour bouger, manger et boire" width="390" height="844" />
+          </div>
+          <div class="float float--a" aria-hidden="true">
+            <span class="float__icon float__icon--fit">
+              <svg viewBox="0 0 24 24"><path d="M4 16v-2.4C4 11.5 3 10.5 3 8c0-2.7 1.5-6 4.5-6C9.4 2 10 3.8 10 5.5c0 3.1-2 5.7-2 8.7V16a2 2 0 1 1-4 0ZM20 20v-2.4c0-2.1 1-3.1 1-5.6 0-2.7-1.5-6-4.5-6C14.6 6 14 7.8 14 9.5c0 3.1 2 5.7 2 8.7V20a2 2 0 1 0 4 0Z"/></svg>
+            </span>
+            <span><strong>6 482</strong> pas<br /><small>objectif 10 000</small></span>
+          </div>
+          <div class="float float--b" aria-hidden="true">
+            <span class="live">LIVE</span>
+            <span><strong>Full Body</strong><br /><small>avec Coach Awa</small></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POINTS FORTS -->
+    <section class="strip" aria-label="Points forts">
+      <div class="wrap strip__grid">
+        <div><strong>8 semaines</strong><span>de programme adapté à ton objectif</span></div>
+        <div><strong>Plats d'ici</strong><span>des menus pensés par tes coachs</span></div>
+        <div><strong>En direct</strong><span>des séances live avec la communauté</span></div>
+        <div><strong>24 h/24</strong><span>un Coach IA pour répondre à tes questions</span></div>
+      </div>
+    </section>
+
+    <!-- FONCTIONNALITÉS -->
+    <section class="section" id="fonctions">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Tout au même endroit</p>
+          <h2>Bouger, bien manger, rester motivé·e.</h2>
+          <p class="sub">FitLife réunit ton entraînement, ton alimentation et ta communauté dans une seule application.</p>
+        </header>
+
+        <div class="features">
+          <article class="feature">
+            <span class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6.5 6.5 11 11M21 21l-1-1M3 3l1 1m14 4 4-4m-18 18 4-4M7.5 2.5 2.5 7.5l3 3 5-5-3-3Zm9 9-5 5 3 3 5-5-3-3Z"/></svg></span>
+            <h3>Un programme fait pour toi</h3>
+            <p>8 semaines de séances générées selon ton objectif, ton niveau et le temps dont tu disposes. Tu suis ta progression séance après séance.</p>
+          </article>
+          <article class="feature">
+            <span class="feature__icon feature__icon--orange"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11h18M5 11a7 7 0 0 0 14 0M12 4v3M8 5l1 2M16 5l-1 2"/></svg></span>
+            <h3>Une alimentation d'ici</h3>
+            <p>Bouillie de mil, plats locaux, portions adaptées : ton apport calorique et tes macros calculés pour toi, avec la liste de courses.</p>
+          </article>
+          <article class="feature">
+            <span class="feature__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.1-7-11.5A7 7 0 0 1 19 9.5C19 14.9 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+            <h3>Podomètre et sessions GPS</h3>
+            <p>Compte tes pas au quotidien ou lance une sortie GPS. Tes kilomètres validés alimentent le classement.</p>
+          </article>
+          <article class="feature">
+            <span class="feature__icon feature__icon--red"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2"/><path d="M16.2 7.8a6 6 0 0 1 0 8.4M7.8 16.2a6 6 0 0 1 0-8.4M19 5a10 10 0 0 1 0 14M5 19A10 10 0 0 1 5 5"/></svg></span>
+            <h3>Des lives avec tes coachs</h3>
+            <p>Entraîne-toi en temps réel avec les coachs FitLife, pose tes questions et bouge avec toute la communauté.</p>
+          </article>
+          <article class="feature">
+            <span class="feature__icon feature__icon--gold"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4ZM7 6H4a3 3 0 0 0 3 4M17 6h3a3 3 0 0 1-3 4"/></svg></span>
+            <h3>Défis, badges et classement</h3>
+            <p>Relève des défis, gagne des badges et grimpe au classement quotidien, hebdomadaire ou mensuel.</p>
+          </article>
+          <article class="feature">
+            <span class="feature__icon feature__icon--blue"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 4v4M9 13v1M15 13v1M2 13v3M22 13v3"/></svg></span>
+            <h3>Un Coach IA 24 h/24</h3>
+            <p>« Je n'ai que 20 minutes aujourd'hui » : il adapte ta séance, te propose un repas et te remotive quand il le faut.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- APERÇU -->
+    <section class="section section--alt" id="apercu">
+      <div class="wrap">
+        <header class="section__head">
+          <p class="eyebrow">Aperçu</p>
+          <h2>Un coup d'œil sur l'application.</h2>
+          <p class="sub">De vraies captures de FitLife. Fais glisser pour tout voir.</p>
+        </header>
+      </div>
+      <div class="gallery" id="gallery" tabindex="0" aria-label="Captures d'écran de l'application">
+        <figure><div class="phone"><img src="assets/screens/home.jpg" alt="Accueil : anneaux du jour" loading="lazy" width="390" height="844" /></div><figcaption>Ta journée en un regard</figcaption></figure>
+        <figure><div class="phone"><img src="assets/screens/program.jpg" alt="Programme de 8 semaines" loading="lazy" width="390" height="844" /></div><figcaption>Ton programme</figcaption></figure>
+        <figure><div class="phone"><img src="assets/screens/nutrition.jpg" alt="Alimentation : calories, macros et menus" loading="lazy" width="390" height="844" /></div><figcaption>Ton alimentation</figcaption></figure>
+        <figure><div class="phone"><img src="assets/screens/activity.jpg" alt="Podomètre et activité" loading="lazy" width="390" height="844" /></div><figcaption>Podomètre et GPS</figcaption></figure>
+        <figure><div class="phone"><img src="assets/screens/lives.jpg" alt="Lives avec les coachs" loading="lazy" width="390" height="844" /></div><figcaption>Lives avec tes coachs</figcaption></figure>
+        <figure><div class="phone"><img src="assets/screens/challenges.jpg" alt="Défis du moment" loading="lazy" width="390" height="844" /></div><figcaption>Défis du moment</figcaption></figure>
+        <figure><div class="phone"><img src="assets/screens/leaderboard.jpg" alt="Classement" loading="lazy" width="390" height="844" /></div><figcaption>Classement</figcaption></figure>
+        <figure><div class="phone"><img src="assets/screens/coach.jpg" alt="Coach IA" loading="lazy" width="390" height="844" /></div><figcaption>Coach IA</figcaption></figure>
+      </div>
+      <div class="wrap gallery__ctrls">
+        <button class="round" type="button" data-dir="-1" aria-label="Captures précédentes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+        <button class="round" type="button" data-dir="1" aria-label="Captures suivantes"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+      </div>
+    </section>
+
+    <!-- TÉLÉCHARGER -->
+    <section class="section" id="telecharger">
+      <div class="wrap">
+        <div class="dl">
+          <div class="dl__intro">
+            <img src="assets/app-icon-512.png" alt="" width="88" height="88" class="dl__icon" />
+            <p class="eyebrow">Installer FitLife</p>
+            <h2>Prêt·e à commencer&nbsp;?</h2>
+            <p class="sub">Télécharge l'application et installe-la en moins d'une minute.</p>
+
+            <!-- Android -->
+            <div class="dl__panel" data-show="android">
+              <a class="btn btn--fit btn--lg btn--block js-apk" href="FitLife.apk" download>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+                Télécharger FitLife.apk
+              </a>
+              <p class="fine">Gratuit · environ <span class="js-size">8 Mo</span> · Android 6 ou plus récent</p>
+            </div>
+
+            <!-- Ordinateur -->
+            <div class="dl__panel" data-show="desktop">
+              <div class="qr">
+                <div class="qr__code" id="qr" role="img" aria-label="QR code pour télécharger FitLife"></div>
+                <p><strong>Scanne ce code avec ton téléphone Android</strong> pour télécharger l'application directement dessus.</p>
+              </div>
+              <a class="btn btn--ghost btn--block js-apk" href="FitLife.apk" download>Ou télécharger le fichier APK</a>
+            </div>
+
+            <!-- iPhone -->
+            <div class="dl__panel" data-show="ios">
+              <div class="note">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16h.01"/></svg>
+                <p><strong>La version iPhone est en préparation.</strong> Pour l'instant, FitLife s'installe sur les téléphones Android. Ouvre cette page sur un Android pour la télécharger.</p>
+              </div>
+              <a class="btn btn--ghost btn--block js-apk" href="FitLife.apk" download>Télécharger quand même l'APK</a>
+            </div>
+          </div>
+
+          <ol class="steps">
+            <li>
+              <span class="steps__n">1</span>
+              <div><h3>Télécharge</h3><p>Touche « Télécharger » : le fichier <code>FitLife.apk</code> arrive dans tes téléchargements.</p></div>
+            </li>
+            <li>
+              <span class="steps__n">2</span>
+              <div><h3>Autorise l'installation</h3><p>Ouvre le fichier. Si Android le demande, autorise « Installer des applications inconnues » pour ton navigateur.</p></div>
+            </li>
+            <li>
+              <span class="steps__n">3</span>
+              <div><h3>Installe et lance-toi</h3><p>Touche « Installer », ouvre FitLife, crée ton compte et réponds aux quelques questions : ton programme est prêt.</p></div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" id="faq">
+      <div class="wrap wrap--narrow">
+        <header class="section__head">
+          <p class="eyebrow">Questions fréquentes</p>
+          <h2>Tu te demandes peut-être…</h2>
+        </header>
+        <div class="faq">
+          <details>
+            <summary>FitLife est-elle gratuite&nbsp;?</summary>
+            <p>Oui : l'application se télécharge gratuitement et la version gratuite permet de suivre ton programme, ton alimentation et ton activité. Une offre Premium facultative débloque des fonctions en plus, sans engagement.</p>
+          </details>
+          <details>
+            <summary>Pourquoi Android parle-t-il d'« application inconnue »&nbsp;?</summary>
+            <p>FitLife se télécharge directement depuis ce site, pas depuis le Play Store. Android affiche alors ce message pour toute application installée de cette façon. Il suffit d'autoriser l'installation une fois pour ton navigateur.</p>
+          </details>
+          <details>
+            <summary>Est-ce disponible sur iPhone&nbsp;?</summary>
+            <p>Pas encore : la version iPhone est en préparation. Pour l'instant, FitLife s'installe sur les téléphones Android 6 ou plus récents.</p>
+          </details>
+          <details>
+            <summary>Ai-je besoin d'une connexion Internet&nbsp;?</summary>
+            <p>Oui : une connexion est nécessaire pour créer ton compte, enregistrer ta progression, suivre les lives et discuter avec le Coach IA.</p>
+          </details>
+          <details>
+            <summary>Comment mettre à jour l'application&nbsp;?</summary>
+            <p>Reviens sur ce site et télécharge à nouveau FitLife : la nouvelle version s'installe par-dessus l'ancienne, tes données restent sur ton compte.</p>
+          </details>
+          <details>
+            <summary>FitLife remplace-t-elle un médecin&nbsp;?</summary>
+            <p>Non. FitLife t'accompagne au quotidien, mais ne remplace pas un médecin ou un nutritionniste. En cas de doute, consulte un professionnel de santé.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPEL FINAL -->
+    <section class="final">
+      <div class="wrap final__inner">
+        <img src="assets/fitlife-mark.png" alt="" width="72" height="72" />
+        <h2>Ta meilleure version commence aujourd'hui.</h2>
+        <a class="btn btn--fit btn--lg js-apk" href="FitLife.apk" download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+          Télécharger FitLife
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <a href="#" class="brand brand--sm"><img src="assets/fitlife-mark.png" alt="" width="26" height="26" /><span>Fit<em>Life</em></span></a>
+      <p>Ton corps. Ton alimentation. Ton coach.</p>
+      <p class="foot__copy">© <span id="year">2026</span> FitLife. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Barre fixe sur mobile -->
+  <div class="sticky" id="sticky">
+    <img src="assets/app-icon-512.png" alt="" width="40" height="40" />
+    <div><strong>FitLife</strong><small>Gratuit sur Android</small></div>
+    <a class="btn btn--fit btn--sm js-apk" href="FitLife.apk" download>Télécharger</a>
+  </div>
+
+  <script src="assets/qrcode.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+</html>
