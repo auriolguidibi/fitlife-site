@@ -54,8 +54,10 @@ const APK_SIZE = '8 Mo'
     }
     requestAnimationFrame(tick)
   }
-  // Le compteur du hero démarre avec l'animation des anneaux
-  setTimeout(() => document.querySelectorAll('.hero .js-count').forEach(countUp), 1000)
+  // Le compteur du hero démarre avec l'animation des anneaux, une fois l'écran de chargement retiré
+  const startHero = () => setTimeout(() => document.querySelectorAll('.hero .js-count').forEach(countUp), 1000)
+  if (document.documentElement.classList.contains('is-loading')) document.addEventListener('splash:done', startHero, { once: true })
+  else startHero()
 
   // Apparitions au défilement
   const revealEls = document.querySelectorAll('.head, .tile, .install li, .faq details, .dl__left, .foot__cta, .manifesto__txt, .gallery figure')
