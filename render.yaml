@@ -1,0 +1,22 @@
+# Render : site statique (aucune construction, les fichiers sont servis tels quels).
+services:
+  - type: web
+    name: fitlife-site
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeploy: true
+    headers:
+      # L'APK est proposé au téléchargement avec le bon type, pour qu'Android propose l'installation
+      - path: /FitLife.apk
+        name: Content-Type
+        value: application/vnd.android.package-archive
+      - path: /FitLife.apk
+        name: Content-Disposition
+        value: attachment; filename="FitLife.apk"
+      - path: /FitLife.apk
+        name: Cache-Control
+        value: no-cache
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=604800
